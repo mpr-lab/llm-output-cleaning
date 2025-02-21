@@ -3,8 +3,8 @@ import io
 
 # Directory where the prompt files are stored
 for i in range(1,101):
-    input_dir = f"pass-k{i}-polycoder"
-    output_dir = f"pass-k{i}-polycoder/cleaned/"
+    input_dir = f"pass-k{i}-poly-coder"
+    output_dir = f"pass-k{i}-poly-coder/cleaned/"
     os.makedirs(output_dir, exist_ok=True)
 
 #file to process
