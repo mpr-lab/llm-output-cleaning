@@ -18,7 +18,7 @@ for i in range(1,101):
     bracket_match = []
 
     try:   
-        with open(file, 'r') as infile:
+        with open(input_path, 'r') as infile:
         
             line = infile.readline()
 
